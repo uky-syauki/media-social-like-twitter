@@ -1,5 +1,5 @@
 import React from 'react';
-import { LoadingBar } from '@dimasmds/react-redux-loading-bar';
+import LoadingBar from '@dimasmds/react-redux-loading-bar';
 
 function Loading() {
   return (

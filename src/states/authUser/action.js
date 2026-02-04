@@ -38,7 +38,7 @@ function asyncSetAuthUser({ id, password }) {
     } catch (error) {
       alert(error.message);
     }
-    dispatch(hideLoading);
+    dispatch(hideLoading());
   };
 }
 
